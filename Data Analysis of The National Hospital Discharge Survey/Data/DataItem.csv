@@ -1,0 +1,46 @@
+"Item Number",Item description
+1,Survey Year
+2,Newborn status
+3,Units for age
+4,"Age in years, months, or days"
+5,Sex
+6,Race
+7,Marital status
+8,Discharge month
+9,Discharge Status
+10,Days of care
+11,Length of stay flag
+12,Geographic region
+13,"Number of beds, recode"
+14,Hospital ownership
+15,Analysis weight
+16,First two digits of survey year
+17,Diagnosis code #1
+18,Diagnosis code #2
+19,Diagnosis code #3
+20,Diagnosis code #4
+21,Diagnosis code #5
+22,Diagnosis code #6
+23,Diagnosis code #7
+24,Diagnosis code #8
+25,Diagnosis code #9
+26,Diagnosis code #10
+27,Diagnosis code #11
+28,Diagnosis code #12
+29,Diagnosis code #13
+30,Diagnosis code #14
+31,Diagnosis code #15
+32,Procedure code#1
+33,Procedure code#2
+34,Procedure code#3
+35,Procedure code#4
+36,Procedure code#5
+37,Procedure code#6
+38,Procedure code#7
+39,Procedure code#8
+40,Principal expected source of payment
+41,Secondary expected source of payment
+42,Diagnosis-Related Groups (DRG)
+43,Type of Admission /Priority Type of Visit
+44,Source of Admission/ Point of Origin
+45,Admitting Diagnosis
