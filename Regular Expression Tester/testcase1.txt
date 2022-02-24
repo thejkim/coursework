@@ -1,0 +1,15 @@
+a*[123]b+c*=N
+d=N
+a1c=N
+a1bc=Y
+2b=Y
+3d=N
+xyzc1bbbbdaaaa21bbbbbbb=Y
+xyzc1kbbbbdaaaa21bbbbbbb=Y
+xyzc1kbbbbdaaaa21b=Y
+xyzc1kbbbbdaaaa21bbbbbbbxxxx=Y
+aaa2abbbbbbbxxxx=N
+aaa3bccccc=Y
+11aaa3bcc111=Y
+x3za132gbbbaaaa21cbbbbbb=N
+x3za132bbbaaaa21bbbbbb=Y

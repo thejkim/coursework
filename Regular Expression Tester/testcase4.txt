@@ -1,0 +1,11 @@
+a*b+c*[def]gh*i+=N
+bbbbbdddgiiii=N
+aaaaaabbbcccceghii=Y
+aaaaaabbbccccegii=Y
+bccccegi=Y
+zzbccccegiiiiiiiiieeeadsabc=Y
+bdgii=Y
+aaaaafi=N
+aaaaafgi=N
+bbbbbbcccfgbbbccfgi=Y
+helloworladiiguys77=N
