@@ -1,2 +1,2 @@
 # coursework
-Projects and Assignments from UAlbany/BMCC.
+Projects and Assignments from School.
