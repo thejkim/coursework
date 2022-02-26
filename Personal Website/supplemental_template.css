@@ -1,0 +1,15 @@
+img {
+  width: 70%;
+  height: 70%;
+}
+.bold {
+  font-weight: bold;
+}
+
+body.li1 {
+  margin-top: 15px;
+}
+
+body.p1 {
+  margin-bottom: 0px;
+}

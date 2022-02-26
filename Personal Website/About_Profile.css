@@ -1,0 +1,33 @@
+/* .element::-webkit-scrollbar { width: 0 !important } */
+
+body {
+  background-image: url(image/backgroundGrads.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#portraitImg {
+  border-radius: 50%;
+  width: 30%;
+  height: 80%;
+  #transform: rotate(90deg);
+  float: left;
+  margin: 50px 50px;
+}
+
+.name {
+  text-align: left;
+  margin: 50px;
+  color: white;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.summary {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}

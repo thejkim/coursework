@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Jo Eu Kimn</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Home.css">
+<script src="moveHorizontally.js"></script>
+<script src="showImage.js"></script>
+
+
+</head>
+
+<body>
+<!-- BOOTSTRAP NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="Home.html">Jo Eun Kim</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="About_Profile.html">Profile</a>
+          <a class="dropdown-item" href="About_EduExp.html">Education/Experiences</a>
+          <a class="dropdown-item" href="About_Abilities.html">Abilities</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="About_AwrHnr.html">Awards/Honors</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#" tabindex="-1" aria-disabled="true">Computer Science</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Portfolio_Art.html">Art</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="supplemental_template_test.html">Supplement template</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- end navbar -->
+</body>
+
+<body onresize="moveCloud(this.id, 2);" >
+
+<div class="centered-text">
+  <h1>Jo Eun Kim</h1>
+</div>
+
+<div class="mario">
+  <img id="walking" src="gif/marioWalking1.gif" onload="moveMario(this.id, 10);">
+</div>
+
+<div class="cloud">
+  <img id="cloudShort1" src="image/cloud.png" onload="moveCloud(this.id, 8);">
+</div>
+<div class="cloud">
+  <img id="cloudLong" src="image/longCloud.png" onload="moveCloud(this.id, 15);">
+</div>
+<div class="cloud">
+  <img id="cloudShort2" src="image/cloud.png" onload="moveCloud(this.id, 5);">
+</div>
+
+<img id=chimneyAlone src="image/chimneyResized.png">
+
+<div id="bLoc">
+<button onclick="myFunction(); setTimeout(myFunction2, 5000)";>Double Click!</button>
+<p>will direct you to my Profile page.</p>
+</div>
+
+<div id="myDIV">
+  <img id="jumping" src="gif/mario_jumpingToChimy.gif">
+
+</div>
+
+</body>
+
+</html>
